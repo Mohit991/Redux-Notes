@@ -69,8 +69,8 @@ Here is the Todo.jsx:
 ## Providing Context
 To do so, we just go to index.js or main.jsx. We just need to wrap all the components withing provider.  
 Import store and provider in main.jsx:  
-`import { Provider } from 'react-redux'
-import {store} from './app/store.js'`  
+`import { Provider } from 'react-redux'`  
+`import {store} from './app/store.js'`  
 Here is the main.jsx:  
 ![image](https://github.com/user-attachments/assets/2114b9dc-864c-44b5-b9ff-0903c79b695b)  
 This is all you need with redux. 
